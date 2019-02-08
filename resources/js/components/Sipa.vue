@@ -15,7 +15,7 @@
 
         <select v-model="form.obesity">
             <option value="0">Poids normal</option>
-            <option value="1">Obèse</option>
+            <option value="1">Obèse (IMC > 40)</option>
         </select>
         <table class="table table-striped">
             <thead>
